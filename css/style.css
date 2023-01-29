@@ -1,0 +1,80 @@
+body{
+    background: rgb(3, 109, 136);
+    margin: 87px;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    height: 100vh;
+}
+
+header{
+    padding: 20px;
+}
+
+nav{
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.logos{
+    text-align: center;
+}
+
+.logosprinter{
+    width: 297px;
+    height: 277px;
+}
+
+.contendor{
+    text-align: center;
+}
+.description{
+    margin: 0 auto;
+    padding: 25px;
+    max-width: 360px;
+    font-size: 20px;
+    text-align: center;
+    border: solid 4px black;
+    border-radius: 5px;
+    background: gray;
+}
+
+ul{
+    margin: 0 auto;
+    max-width: 360px;
+    padding: 0;
+    list-style: none;
+}
+
+ul li{
+    font-family: 'Lobster', cursive;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    background: black;
+    padding: 10px 30px 10px 32px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: block;
+    margin-bottom: 15px;
+    border: 5px solid blueviolet;
+    box-shadow: 5px 3px 2px black;
+    
+}
+
+ul li:hover{
+    background: white;
+    color: black;
+    font-size: 25px;
+}
+
+
+
+hr{
+    background-color: rgb(1, 1, 53);
+    height: 2px;
+    border: opx rgb(1, 1, 53);
+}
+footer{
+    float: right;
+    min-height: 70vh;
+}
